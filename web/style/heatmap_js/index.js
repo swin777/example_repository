@@ -49,5 +49,5 @@ map.on(ktGms.event.MapDefaultEvent.eventName.load, () => {
 	)
 
 	//히트맵 스타일의 포인트 레이어를 지도에 추가합니다
-	new ktGms.layer.PointLayer("heatmapLayer", heatmapStyle, source).addTo(map)
+	new ktGms.layer.HeatmapLayer("heatmapLayer", heatmapStyle, source).addTo(map)
 });

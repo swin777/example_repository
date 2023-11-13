@@ -17,7 +17,7 @@ let style = new ktGms.style.RasterStyle(
 
 //RasterLayer 적용할 RasterSource 정보를 지정합니다.
 let source = new ktGms.source.RasterSource("raster-tiles",{
-  "tiles": ["https://stamen-tiles.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.jpg"],
+  "tiles": ["https://tiles.stadiamaps.com/tiles/stamen_watercolor/{z}/{x}/{y}.jpg"],
   "tileSize": 256,
 });
 
